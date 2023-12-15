@@ -11,7 +11,7 @@ const {login} =require("../Controllers/authController")
 router.use(
     cors({
         credentials:true,
-        origin:'http://localhost:3000'
+        origin:'https://frontend-c1ep.onrender.com'
     })
 )
 
